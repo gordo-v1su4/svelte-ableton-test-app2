@@ -1,72 +1,57 @@
-# Svelte + Vite
+# Svelte + Vite + Ableton Integration
 
-This template should help get you started developing with Svelte in Vite.
+A Svelte application for visualizing Ableton Live session data with waveform analysis.
 
-## Recommended IDE Setup
+## 🚀 Quick Start
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+1. **Install Dependencies**
+   ```bash
+   pnpm install
+   ```
 
-## Need an official Svelte framework?
+2. **Run Development Server**
+   ```bash
+   pnpm run dev
+   ```
+   Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+3. **Build for Production**
+   ```bash
+   pnpm run build
+   pnpm run preview
+   ```
 
-## Technical considerations
+## 🛠️ Project Structure
 
-**Why use this over SvelteKit?**
-
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
 ```
-
-
-Project Structure:
-
 svelte-ableton-test-app/
-├── public/
+├── public/                     # Static assets
 │   ├── ableton_data_export.json  # JSON from Ableton API script
-│   ├── audio.wav                # Sample WAV file (e.g., Drum Loop)
-│   └── favicon.ico              # Default favicon
+│   └── audio.wav                # Sample audio file
 ├── src/
-│   ├── components/
-│   │   ├── SessionInfo.svelte   # Displays session metadata
-│   │   ├── TransientList.svelte # Lists transient markers
-│   │   └── WaveformViewer.svelte # Renders waveform with transients
-│   ├── lib/
-│   │   ├── data.js             # Data fetching and parsing
-│   │   └── time.js             # Time conversion (beats to seconds)
-│   ├── App.svelte              # Main app component
-│   ├── main.js                 # Entry point
-│   ├── index.html              # HTML template
-│   └── app.css                 # Global styles
-├── package.json                # Node.js dependencies
-├── vite.config.js              # Vite configuration
-└── README.md                   # Project documentation
+│   ├── components/             # Svelte components
+│   │   ├── SessionInfo.svelte   # Session metadata
+│   │   ├── TransientList.svelte # Transient markers
+│   │   └── WaveformViewer.svelte # Waveform visualization
+│   ├── lib/                    # Utility functions
+│   │   ├── data.js             # Data handling
+│   │   └── time.js             # Time conversions
+│   ├── App.svelte              # Root component
+│   └── main.js                 # App entry point
+└── package.json                # Project configuration
 ```
+
+## 🔧 Requirements
+
+- Node.js 16+
+- pnpm 7+
+
+## 📚 Technologies Used
+
+- [Svelte](https://svelte.dev/)
+- [Vite](https://vitejs.dev/)
+- [Peaks.js](https://waveform.prototyping.bbc.co.uk/)
+
+## 🔌 VS Code Setup
+
+For the best development experience, install the [Svelte extension](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
