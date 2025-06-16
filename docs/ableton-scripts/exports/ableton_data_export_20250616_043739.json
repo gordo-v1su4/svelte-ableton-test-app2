@@ -1,0 +1,555 @@
+{
+    "bpm": 140.0,
+    "time_signature": {
+        "numerator": 4,
+        "denominator": 4
+    },
+    "key": "unknown",
+    "trigger_markers": [],
+    "midi_patterns": [],
+    "transient_markers": [
+        {
+            "track": "5-无法停止停止停止 (Serenading Saxophone Edit)_Bass Heavy_Master",
+            "track_index": 4,
+            "clip": "无法停止停止停止 (Serenading Saxophone Edit)_Bass Heavy_Master",
+            "clip_index": 0,
+            "transients": [
+                {
+                    "time": 0.0,
+                    "sample_time": 0.06000000238418579
+                },
+                {
+                    "time": 4.223333697552447,
+                    "sample_time": 1.8700001239776611
+                },
+                {
+                    "time": 8.0,
+                    "sample_time": 3.5843764172335604
+                },
+                {
+                    "time": 12.0,
+                    "sample_time": 5.270000457763672
+                },
+                {
+                    "time": 16.0,
+                    "sample_time": 6.989501133786848
+                },
+                {
+                    "time": 20.0,
+                    "sample_time": 8.690000534057617
+                },
+                {
+                    "time": 24.0,
+                    "sample_time": 10.414897959183673
+                },
+                {
+                    "time": 28.0,
+                    "sample_time": 12.130001068115234
+                },
+                {
+                    "time": 32.0,
+                    "sample_time": 13.843854875283448
+                },
+                {
+                    "time": 36.0,
+                    "sample_time": 15.562426303854876
+                },
+                {
+                    "time": 40.0,
+                    "sample_time": 17.275736961451248
+                },
+                {
+                    "time": 44.0,
+                    "sample_time": 18.990136054421768
+                },
+                {
+                    "time": 48.0,
+                    "sample_time": 20.69467120181406
+                },
+                {
+                    "time": 52.0,
+                    "sample_time": 22.408412698412697
+                },
+                {
+                    "time": 56.0,
+                    "sample_time": 24.119342403628117
+                },
+                {
+                    "time": 60.0,
+                    "sample_time": 25.854739229024943
+                },
+                {
+                    "time": 64.0,
+                    "sample_time": 27.558662131519274
+                },
+                {
+                    "time": 68.0,
+                    "sample_time": 29.285238095238096
+                },
+                {
+                    "time": 72.0,
+                    "sample_time": 30.99591836734694
+                },
+                {
+                    "time": 76.0,
+                    "sample_time": 32.70836734693878
+                },
+                {
+                    "time": 80.0,
+                    "sample_time": 34.410003662109375
+                },
+                {
+                    "time": 84.0,
+                    "sample_time": 36.13383219954648
+                },
+                {
+                    "time": 88.0,
+                    "sample_time": 37.85170068027211
+                },
+                {
+                    "time": 92.0,
+                    "sample_time": 39.56351473922903
+                },
+                {
+                    "time": 96.0,
+                    "sample_time": 41.26845804988662
+                },
+                {
+                    "time": 100.0,
+                    "sample_time": 42.963310657596374
+                },
+                {
+                    "time": 104.0,
+                    "sample_time": 44.70000457763672
+                },
+                {
+                    "time": 108.0,
+                    "sample_time": 46.43426303854875
+                },
+                {
+                    "time": 112.0,
+                    "sample_time": 48.125850340136054
+                },
+                {
+                    "time": 116.0,
+                    "sample_time": 49.84195011337869
+                },
+                {
+                    "time": 120.0,
+                    "sample_time": 51.562993197278914
+                },
+                {
+                    "time": 124.0,
+                    "sample_time": 53.52000427246094
+                },
+                {
+                    "time": 128.0,
+                    "sample_time": 55.41460317460317
+                },
+                {
+                    "time": 132.0,
+                    "sample_time": 57.13006802721088
+                },
+                {
+                    "time": 136.0,
+                    "sample_time": 58.84126984126984
+                },
+                {
+                    "time": 140.0,
+                    "sample_time": 60.55575963718821
+                },
+                {
+                    "time": 144.0,
+                    "sample_time": 62.26605442176871
+                },
+                {
+                    "time": 148.0,
+                    "sample_time": 63.983061224489795
+                },
+                {
+                    "time": 152.0,
+                    "sample_time": 65.69732426303855
+                },
+                {
+                    "time": 156.0,
+                    "sample_time": 67.41528344671202
+                },
+                {
+                    "time": 160.0,
+                    "sample_time": 69.14528344671201
+                },
+                {
+                    "time": 164.0,
+                    "sample_time": 70.84040816326531
+                },
+                {
+                    "time": 168.0,
+                    "sample_time": 72.55616780045351
+                },
+                {
+                    "time": 172.0,
+                    "sample_time": 74.26893424036281
+                },
+                {
+                    "time": 176.0,
+                    "sample_time": 75.97675736961452
+                },
+                {
+                    "time": 180.0,
+                    "sample_time": 77.69764172335601
+                },
+                {
+                    "time": 184.0,
+                    "sample_time": 79.41333333333333
+                },
+                {
+                    "time": 188.0,
+                    "sample_time": 81.12614512471656
+                },
+                {
+                    "time": 192.0,
+                    "sample_time": 82.83723356009071
+                },
+                {
+                    "time": 196.0,
+                    "sample_time": 84.5531746031746
+                },
+                {
+                    "time": 200.0,
+                    "sample_time": 86.26938775510204
+                },
+                {
+                    "time": 204.0,
+                    "sample_time": 87.98258503401361
+                },
+                {
+                    "time": 208.0,
+                    "sample_time": 89.69036281179139
+                },
+                {
+                    "time": 212.0,
+                    "sample_time": 91.41104308390022
+                },
+                {
+                    "time": 216.0,
+                    "sample_time": 93.12149659863945
+                },
+                {
+                    "time": 220.0,
+                    "sample_time": 94.83986394557823
+                },
+                {
+                    "time": 224.0,
+                    "sample_time": 96.5552380952381
+                },
+                {
+                    "time": 228.0,
+                    "sample_time": 98.26666666666667
+                },
+                {
+                    "time": 232.0,
+                    "sample_time": 99.99000549316406
+                },
+                {
+                    "time": 236.0,
+                    "sample_time": 101.69001007080078
+                },
+                {
+                    "time": 240.0,
+                    "sample_time": 103.40331065759638
+                },
+                {
+                    "time": 244.0,
+                    "sample_time": 105.10675736961451
+                },
+                {
+                    "time": 248.0,
+                    "sample_time": 106.8028798185941
+                },
+                {
+                    "time": 252.0,
+                    "sample_time": 108.50528344671201
+                },
+                {
+                    "time": 256.0,
+                    "sample_time": 110.2090022675737
+                },
+                {
+                    "time": 260.0,
+                    "sample_time": 111.90789115646258
+                },
+                {
+                    "time": 264.0,
+                    "sample_time": 113.61517006802721
+                },
+                {
+                    "time": 268.0,
+                    "sample_time": 115.31827664399093
+                },
+                {
+                    "time": 272.0,
+                    "sample_time": 117.01895691609978
+                },
+                {
+                    "time": 276.0,
+                    "sample_time": 118.71585034013606
+                },
+                {
+                    "time": 280.0,
+                    "sample_time": 120.42038548752835
+                },
+                {
+                    "time": 284.0,
+                    "sample_time": 122.11702947845805
+                },
+                {
+                    "time": 288.0,
+                    "sample_time": 123.82079365079365
+                },
+                {
+                    "time": 292.0,
+                    "sample_time": 125.5155328798186
+                },
+                {
+                    "time": 296.0,
+                    "sample_time": 127.20886621315194
+                },
+                {
+                    "time": 300.0,
+                    "sample_time": 128.90061224489796
+                },
+                {
+                    "time": 304.0,
+                    "sample_time": 130.59521541950113
+                },
+                {
+                    "time": 308.0,
+                    "sample_time": 132.28836734693877
+                },
+                {
+                    "time": 312.0,
+                    "sample_time": 133.97922902494332
+                },
+                {
+                    "time": 316.0,
+                    "sample_time": 135.66637188208617
+                },
+                {
+                    "time": 320.0,
+                    "sample_time": 137.36970521541951
+                },
+                {
+                    "time": 324.0,
+                    "sample_time": 139.06244897959184
+                },
+                {
+                    "time": 328.0,
+                    "sample_time": 140.74632653061224
+                },
+                {
+                    "time": 332.0,
+                    "sample_time": 142.4400177001953
+                },
+                {
+                    "time": 336.0,
+                    "sample_time": 144.13326530612244
+                },
+                {
+                    "time": 340.0,
+                    "sample_time": 145.82655328798185
+                },
+                {
+                    "time": 344.0,
+                    "sample_time": 147.51723356009072
+                },
+                {
+                    "time": 348.0,
+                    "sample_time": 149.21213151927438
+                },
+                {
+                    "time": 352.0,
+                    "sample_time": 150.9036961451247
+                },
+                {
+                    "time": 356.0,
+                    "sample_time": 152.59417233560092
+                },
+                {
+                    "time": 360.0,
+                    "sample_time": 154.27832199546486
+                },
+                {
+                    "time": 364.0,
+                    "sample_time": 155.9772335600907
+                },
+                {
+                    "time": 368.0,
+                    "sample_time": 157.66219954648525
+                },
+                {
+                    "time": 368.03125,
+                    "sample_time": 157.67536334325396
+                }
+            ]
+        }
+    ],
+    "audio_files": [
+        {
+            "track": "5-无法停止停止停止 (Serenading Saxophone Edit)_Bass Heavy_Master",
+            "track_index": 4,
+            "clip": "无法停止停止停止 (Serenading Saxophone Edit)_Bass Heavy_Master",
+            "clip_index": 0,
+            "file_path": "C:\\Users\\Gordo\\Documents\\_projects\\Kung-Pow Kitty\\songs\\new-06162025\\无法停止停止停止 (Serenading Saxophone Edit)_Bass Heavy_Master.wav"
+        }
+    ],
+    "track_info": [
+        {
+            "index": 0,
+            "name": "1-MIDI",
+            "is_foldable": false,
+            "muted": false,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 1,
+            "name": "2-MIDI",
+            "is_foldable": false,
+            "muted": false,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 2,
+            "name": "3-无法停止停止停止 (Serenading Saxophone Edit) (Vocals)",
+            "is_foldable": false,
+            "muted": false,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 3,
+            "name": "4-Melody to MIDI",
+            "is_foldable": false,
+            "muted": false,
+            "solo": false,
+            "arm": true,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 4,
+            "name": "5-无法停止停止停止 (Serenading Saxophone Edit)_Bass Heavy_Master",
+            "is_foldable": false,
+            "muted": true,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": [
+                {
+                    "index": 0,
+                    "name": "无法停止停止停止 (Serenading Saxophone Edit)_Bass Heavy_Master",
+                    "start_time": 0.0,
+                    "end_time": 370.70101070804196,
+                    "loop_start": 0.0,
+                    "loop_end": 370.70101070804196,
+                    "looping": false,
+                    "muted": false,
+                    "color": 16725558,
+                    "is_midi": false,
+                    "is_audio": true,
+                    "warp_marker_count": 94
+                }
+            ]
+        },
+        {
+            "index": 5,
+            "name": "6-无法停止停止停止 (Serenading Saxophone Edit) (Synth)",
+            "is_foldable": false,
+            "muted": false,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 6,
+            "name": "7-无法停止停止停止 (Serenading Saxophone Edit) (Synth)",
+            "is_foldable": false,
+            "muted": false,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 7,
+            "name": "8-Melody to MIDI",
+            "is_foldable": false,
+            "muted": false,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 8,
+            "name": "9-无法停止停止停止 (Serenading Saxophone Edit) (FX)",
+            "is_foldable": false,
+            "muted": true,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 9,
+            "name": "10-无法停止停止停止 (Serenading Saxophone Edit)",
+            "is_foldable": false,
+            "muted": true,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 10,
+            "name": "11-无法停止停止停止 (Serenading Saxophone Edit) (Percussion)",
+            "is_foldable": false,
+            "muted": false,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        },
+        {
+            "index": 11,
+            "name": "12-无法停止停止停止 (Serenading Saxophone Edit) (Bass)",
+            "is_foldable": false,
+            "muted": false,
+            "solo": false,
+            "arm": false,
+            "volume": 0.8500000238418579,
+            "panning": 0.0,
+            "clips": []
+        }
+    ],
+    "song_length": 4082.308864572927
+}
